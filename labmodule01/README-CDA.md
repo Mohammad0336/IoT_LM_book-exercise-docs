@@ -6,17 +6,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 
 ### Description
 
-For this module the set up of a virtual sandbox is done to begin testing various modules relevent to the internet of things.
-In this readme contains the information on the development of the environment done by following the text provided. 
 
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
-
-For the virtual environment utilized in these labs there are a few pre-requisites downloading python, java, pip, and git to 
-complete the development of our personal workstations. Verifying if pre-installed the versions of the softwares above are 
-within regulations described in the text. The next step was to configure the development environment and clone 
-the sample source code provided in the textbook. 
 
 How does your implementation work?
 
