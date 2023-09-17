@@ -13,8 +13,6 @@ What does your implementation do?
 
 How does your implementation work?
 
-The implementation is based in a Linux environment. 
-
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
