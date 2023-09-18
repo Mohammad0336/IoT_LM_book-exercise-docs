@@ -11,7 +11,14 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+This module is focused on the initialization of the development environment. Specifically for the Constranied device
+application for pydev and unit testing to test the validity of the environment set up prior to the run.
+
 How does your implementation work?
+
+The implementation works with the repository installed locally on each members device. Then with the installation of a 
+python interpreter in eclipse IDE test cases were executed. Using the shared repository forked from programmingtheiot/book-
+exercise-docs the code was altered and pushed to share with members of the group.
 
 ### Code Repository and Branch
 
@@ -20,7 +27,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/Abbas-Rizvi/iot-python-components
 
 ### UML Design Diagram(s)
 
