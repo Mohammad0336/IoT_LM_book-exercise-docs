@@ -16,9 +16,9 @@ this github repository any iteration made on the modules will be updated.
 
 How does your implementation work?
 
-Through the use of git, the java components path wes utilized where pre-existing projects were used to test the validity 
+Through the use of git, the java components path was utilized where pre-existing projects were used to test the validity 
 of the testing environment built. The project ran as a java application and through maven install -DskipTests. Using the 
-shared repository forked from programmingtheiot/book-exercise-docs the code was altered and pushed to share with all 
+shared repository forked from programmingtheiot/book-exercise-docs the code was altered and pushed to share with 
 members of the group.  
 
 ### Code Repository and Branch
