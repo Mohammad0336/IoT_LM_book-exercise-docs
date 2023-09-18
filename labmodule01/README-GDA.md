@@ -33,8 +33,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/bd8ee577-233a-4e72-914b-758c17ef8715)
-
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/c324c1b7-5415-4746-8c57-087bb89042c3)
 
 ### Unit Tests Executed
 
@@ -44,7 +43,7 @@ since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/3a6684b1-c9a3-4727-a2e1-0192ec5b47f1)
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6fb04c82-67fb-4fd2-a194-285fd029b474)
  
 
 ### Integration Tests Executed
@@ -56,6 +55,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 -GatewayDeviceApp
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6fb04c82-67fb-4fd2-a194-285fd029b474)
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/3a6684b1-c9a3-4727-a2e1-0192ec5b47f1)
  
 EOF.
