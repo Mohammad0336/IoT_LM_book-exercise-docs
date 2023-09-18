@@ -25,7 +25,7 @@ members of the group.
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/Abbas-Rizvi/iot-java-components
 
 ### UML Design Diagram(s)
 
