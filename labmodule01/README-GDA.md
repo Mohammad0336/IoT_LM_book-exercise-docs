@@ -43,8 +43,8 @@ since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6fb04c82-67fb-4fd2-a194-285fd029b474)
- 
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/68cb6d86-1897-45b0-b785-83d38a608a5f)
+
 
 ### Integration Tests Executed
 
