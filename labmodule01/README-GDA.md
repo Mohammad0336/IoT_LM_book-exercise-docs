@@ -43,7 +43,7 @@ since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/3a6684b1-c9a3-4727-a2e1-0192ec5b47f1)
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6fb04c82-67fb-4fd2-a194-285fd029b474)
  
 
 ### Integration Tests Executed
@@ -55,6 +55,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 -GatewayDeviceApp
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6fb04c82-67fb-4fd2-a194-285fd029b474)
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/3a6684b1-c9a3-4727-a2e1-0192ec5b47f1)
  
 EOF.
