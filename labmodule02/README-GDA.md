@@ -40,11 +40,16 @@ since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest
 
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/e3dcf958-9a60-4325-9d41-adf2c4259532)
   
 - SystemMemUtilTest
 
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/b1c6cff1-7dac-45d2-a891-978d9da4cc4a)
+
   
-- SystemCpuTaskTest
+- SystemCpuUtilTaskTest
+
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/78afd938-eb50-425b-a810-74ee379955fe)
 
   
 
@@ -57,9 +62,11 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - SystemPerformanceManagerTest
 
-  
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/681b3d07-eba7-4562-b363-ddb155d301fe)
+
   
 - GatewayDeviceAppTest
   
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/cb03f72e-38a4-4583-b16a-df986181eef9)
 
 EOF.
