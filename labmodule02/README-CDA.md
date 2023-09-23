@@ -46,7 +46,7 @@ since you need to ensure you haven't introduced regressions.
   ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/ad11d351-0167-4c9f-b738-65910bf81dd2)
 
 - SystemMemUtilTaskTest
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/84eb82e4-3f08-41da-bb8b-5fcd49510199)
+  ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/84eb82e4-3f08-41da-bb8b-5fcd49510199)
 
 ### Integration Tests Executed
 
