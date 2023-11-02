@@ -51,10 +51,13 @@ your code to ensure it's correct. As for the tests you execute, you only need to
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - PIOT-GDA-07-001:
+
   ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/662c4b8c-54ea-42e4-9d73-54ec3c8221a4)
 - PIOT-GDA-07-002:
+
   ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/f1107bfc-57da-401b-abe8-603dc859a8dd)
 - PIOT-GDA-07-003:
+
   ![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/20b879ff-2dd3-4b01-97e3-86750387931d)
 
 EOF.
