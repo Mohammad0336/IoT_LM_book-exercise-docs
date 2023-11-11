@@ -31,8 +31,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/6e97001e-52fd-4488-bc78-473849bef026)
-
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/1876d56c-c0cb-4444-8757-bcff61c08147)
 
 ### Unit Tests Executed
 
