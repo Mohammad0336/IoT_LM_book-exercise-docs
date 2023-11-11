@@ -10,7 +10,14 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The Java implementation involves a class named CoapServerGateway, acting as the CoAP server to host remote resources. Two new classes, UpdateSystemPerformanceResourceHandler and UpdateTelemetryResourceHandler, 
+enable the CDA to execute PUT requests for SensorData and SystemPerformanceData to the GDA. GetActuatorCommandResourceHandler, allows the GDA to notify the CDA of actuation commands via CoAP OBSERVE. 
+
 How does your implementation work?
+
+This implementation works by using CoapServerGateway as the central component for CoAP server functionality and remote resource hosting. The class is adjusted to include specific resource handlers, like 
+UpdateSystemPerformanceResourceHandler and UpdateTelemetryResourceHandler, facilitating PUT requests for SensorData / SystemPerformanceData. The GetActuatorCommandResourceHandler class supports GDA to CDA communication for
+actuation commands through CoAP OBSERVE.
 
 ### Code Repository and Branch
 
