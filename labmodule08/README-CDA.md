@@ -30,8 +30,7 @@ URL: https://github.com/Abbas-Rizvi/iot-python-components
 
 ### UML Design Diagram(s)
 
-![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/c87770cc-b2e9-40b7-9b40-04b325cc6336)
-
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/40afb017-a398-46b3-ab84-f535b1f68a40)
 
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
