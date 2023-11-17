@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL:  https://github.com/Abbas-Rizvi/iot-python-components
 
 ### UML Design Diagram(s)
 
@@ -31,9 +31,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+
 
 ### Integration Tests Executed
 
@@ -42,8 +40,10 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- CoapClientConnectorTest
+
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/f0ae352c-95bc-49ac-8d23-0e843571fab9)
+
+
 
 EOF.
