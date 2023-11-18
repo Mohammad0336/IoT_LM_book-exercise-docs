@@ -10,7 +10,18 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+This implementation focuses on a Java class called CoapClientConnector, which acts as a client for CoAP (Constrained 
+Application Protocol). It allows sending various CoAP requests (GET, POST, PUT, DELETE) to a specified server and handling 
+the responses. The class supports resource discovery, enabling retrieval of information about available server resources. 
+It also features the ability to observe resources, providing updates when the observed resource changes. The implementation 
+uses the Californium CoAP library and includes methods for client initialization, request sending, response handling, and 
+resource observation. Logging and exception handling are incorporated for improved robustness. 
+
 How does your implementation work?
+
+The CoapClientConnector class in this implementation is a versatile tool for interacting with CoAP servers. It can 
+discover, fetch, create, update, and delete resources. It also keeps track of resource changes and handles communication 
+with the server effectively.
 
 ### Code Repository and Branch
 
