@@ -189,10 +189,116 @@ INFO: Disconnecting MQTT client from broker: tcp://127.0.0.1:1883
 
 - PIOT-GDA-10-003
 
+```
+<terminated> DeviceDataManagerSimpleCdaActuationTest [JUnit] /usr/lib/jvm/java-17-openjdk-amd64/bin/java (Nov 29, 2023, 2:30:15 PM–2:31:08 PM) [pid: 8430]
+Nov 29, 2023 2:30:19 PM programmingtheiot.gda.connection.MqttClientConnector initCredentialConnectionParameters INFO: Checking if credentials file exists and is loadable...
+Nov 29, 2023 2:30:19 PM programmingtheiot.common.ConfigUtil getCredentials
+WARNING: Credential file non-existent: ./cred/PiotMqttCred.props. Ignoring.
+Nov 29, 2023 2:30:19 PM programmingtheiot.gda.connection.MqttClientConnector initCredentialConnectionParameters WARNING: No credentials are set.
+Nov 29, 2023 2:30:19 PM programmingtheiot.gda.connection.MqttClientConnector initClientParameters
+INFO: Using URL for broker conn: tcp://127.0.0.1:1883
+Nov 29, 2023 2:30:35 PM programmingtheiot.gda.app.DeviceDataManager handleHumiditySensorAnalysis
+INFO: Humidity exceptional value reached. Sending actuation event to CDA: name-HumidifierActuator, type ID-1002, timeStamp-2023-11-28T07:30:39.2186871497, statusCode-0, hasError-false, locationID-constr Nov 29, 2023 2:30:39 PM programmingtheiot.gda.app.DeviceDataManager sendActuatorCommandtoCda WARNING: Failed to publish ActuatorData humidifier command from GDA to CDA: 1
+Nov 29, 2023 2:30:58 PM programmingtheiot.gda.app.DeviceDataManager handleHumiditySensorAnalysis
+INFO: Humidity nominal value reached. Sending OFF actuation event to CDA: name=HumidifierActuator, typeID=1002, timeStamp-2023-11-28T07:30:50.2832407612, statusCode=, hasError=false, locationID=constr Nov 29, 2023 2:30:50 PM programmingtheiot.gda.app.DeviceDataManager sendActuatorCommandtoCda
+WARNING: Failed to publish ActuatorData humidifier command from GDA to CDA: ...
+```
+
 - PIOT-INT-10-003
+
+```
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:42:58 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:42:58 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:42:59 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:42:59 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:00 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:43:00 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:02 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:43:02 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:03 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:43:03 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:04 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:43:04 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:05 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 3:43:05 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector disconnectClient
+WARNING: MQTT client not connected to broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector unsubscribeFromTopic
+INFO: Successfully unsubscribed from topic: PIOT/GatewayDevice/MgmtStatusMsg
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector unsubscribeFromTopic
+INFO: Successfully unsubscribed from topic: PIOT/ConstrainedDevice/ActuatorResponse
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector unsubscribeFromTopic
+INFO: Successfully unsubscribed from topic: PIOT/ConstrainedDevice/SensorMsg
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector unsubscribeFromTopic
+INFO: Successfully unsubscribed from topic: PIOT/ConstrainedDevice/SystemPerfMsg
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.connection.MqttClientConnector disconnectClient
+INFO: Disconnecting MQTT client from broker: tcp://127.0.0.1:1883
+Nov 29, 2023 3:43:06 PM programmingtheiot.gda.app.DeviceDataManager stopManager
+INFO: Successfully disconnected MQTT client from broker.
+```
 
 - PIOT-INT-10-004
 
-- 
+```
+Nov 29, 2023 4:17:11 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:13 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:13 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:14 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:14 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:15 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:15 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:17 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:17 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ssl://127.0.0.1:8883
+Nov 29, 2023 4:17:18 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:18 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:19 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:19 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:21 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:21 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ssl://127.0.0.1:8883
+Nov 29, 2023 4:17:22 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:22 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ss1://127.0.0.1:8883
+Nov 29, 2023 4:17:23 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:23 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ssl://127.0.0.1:8883
+Nov 29, 2023 4:17:25 PM programmingtheiot.gda.connection.MqttClientConnector connectionLost
+INFO: connectionLost method called. Client has successfully disconnected.
+Nov 29, 2023 4:17:25 PM programmingtheiot.gda.connection.MqttClientConnector connectComplete
+INFO: MQTT connection successful (is reconnect = true). Broker: ssl://127.0.0.1:8883
+Nov 29, 2023 4:17:25 PM programmingtheiot.gda.connection.MqttClientConnector disconnectClient
+INFO: Disconnecting MQTT client from broker: ssl://127.0.0.1:8883"
+```
 
 EOF.
