@@ -77,14 +77,126 @@ OK
 
 - PIOT-CDA-10-001
 
+```
+<terminated> MqttClientConnectorTest.py [unittest] [/home/mohammad/programmingtheiot/.venv/bin/python] 0.00s Debugger warning: It seems that frozen modules are being used, which may
+0.00s make the debugger miss breakpoints. Please pass -Xfrozen_modules-off
+0.00s
+to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Finding files... done.
+Importing test modules ... done.
+2023-11-29 10:15:42,896:MqttClientConnectorTest: INFO: Testing MqttClientConnector class...
+2023-11-29 10:15:42,898: ConfigUtil: INFO: Loading config: /home/mohammad/programmingtheiot/python-components/config/PiotConfig.props
+2023-11-29 10:15:42,900: ConfigUtil: DEBUG:Config: ['Mqtt.GatewayService', 'Coap. GatewayService', 'ConstrainedDevice']
+2023-11-29 10:15:42,901: ConfigUtil: INFO: Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7f763aa09a10> 2023-11-29 10:15:42,901: MqttClientConnector: INFO: MQTT Client ID: MqttclientTest
+2023-11-29 10:15:42,901: MqttClientConnector: INFO: 2023-11-29 10:15:42,901: MqttClientConnector: INFO:
+2023-11-29 10:15:42,901: MqttClientConnector: INFO:
+MQTT Broker Host: 127.0.0.1
+MQTT Broker Port: 1883 MQTT Keep Alive: 60
+2023-11-29 10:15:42,902:MqttClientConnector: INFO: MQTT client connecting to broker at host: 127.0.0.1 2023-11-29 10:15:47,905: MqttClientConnector: INFO:Disconnecting MQTT client from broker: 127.0.0.1
+Ran 8 tests in 65.050s
+OK (skipped=7)
+```
+
 - PIOT-CDA-10-002
+
+```
+<terminated> DeviceDataManagerCallbackTest.py [/home/mohammad/programmingtheiot/.venv/bin/python]
+2023-11-29 11:25:15,526: DeviceDataManagerCallbackTest: INFO: Testing DeviceDataManager class...
+2023-11-29 11:25:15,526: ConfigUtil: INFO: Loading config: /home/mohammad/programmingtheiot/python-components/config/PiotConfig.props 2023-11-29 11:25:15,527: ConfigUtil: DEBUG:Config: ['Mqtt. GatewayService', 'Coap. GatewayService', 'ConstrainedDevice']
+2023-11-29 11:25:15,527: ConfigUtil: INFO:Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7f0ae1188b10> 2023-11-29 11:25:15,527:MqttClientConnector: INFO: MQTT Client ID: DeviceDataMQTT
+2023-11-29 11:25:15,527:MqttClientConnector: INFO: 2023-11-29 11:25:15,527:MqttClientConnector: INFO: 2023-11-29 11:25:15,527:MqttClientConnector: INFO:
+MQTT Broker Host: 127.0.0.1 MQTT Broker Port: 1883
+MQTT Keep Alive: 60
+2023-11-29 11:25:15,527: DeviceDataManager: INFO: Starting DeviceDataManager...
+2023-11-29 11:25:15,527: MqttClientConnector: INFO: MQTT client connecting to broker at host: 127.0.0.1
+2023-11-29 11:25:15,532: DeviceDataManager: INFO:Started DeviceDataManager.
+2023-11-29 11:25:15,534: MqttClientConnector: INFO: [Callback] Connected to MQTT broker. Result code: 0
+2023-11-29 11:25:15,535:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f0ae0b66110> 2023-11-29 11:25:15,536:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f0ae0b66110>
+2023-11-29 11:25:25,533: DeviceDataManager: INFO:Stopping DeviceDataManager...
+2023-11-29 11:25:25,534: MqttClientConnector: INFO: Disconnecting MQTT client from broker: 127.0.0.1 2023-11-29 11:25:25,534: DeviceDataManager: INFO: Stopped DeviceDataManager.
+Ran 1 test in 10.010s
+OK
+```
 
 - PIOT-CDA-10-003
 
+```
+<terminated> MqttClientConnectorTest.py [/home/mohammad/programmingthelot/.venv/bin/python]
+2023-11-29 11:35:40,874:MqttClientConnectorTest: INFO: Testing MqttClientConnector class...
+2023-11-29 11:35:40,874: ConfigUtil: INFO: Loading config: /home/mohammad/programmingtheiot/python-components/config/PiotConfig.props 2023-11-29 11:35:40,874: ConfigUtil: DEBUG:Config: ['Mqtt. GatewayService', 'Coap. GatewayService', 'ConstrainedDevice']
+2023-11-29 11:35:40,875: ConfigUtil: INFO:Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7f1e18981490> 2023-11-29 11:35:40,875: MqttClientConnector: INFO: MQTT Client ID: MqttclientTest 2023-11-29 11:35:40,875: MqttClientConnector: INFO: 2023-11-29 11:35:40,875: MqttClientConnector: INFO:
+2023-11-29 11:35:40,875: MqttClientConnector: INFO:
+MQTT Broker Host: 127.0.0.1
+MQTT Broker Port: 1883
+MQTT Keep Alive: 60
+ssssss2023-11-29 11:35:40,876: DataUtil: INFO:Created DataUtil instance.
+2023-11-29 11:35:40,876: MqttClientConnector: INFO: MQTT client connecting to broker at host: 127.0.0.1
+2023-11-29 11:35:40,882: MqttClientConnector: INFO: [Callback] Connected to MQTT broker. Result code: 0
+2023-11-29 11:35:40,886: MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f1e18969450>
+2023-11-29 11:35:45,886: MqttClientConnector: INFO: [Callback] Actuator command message received. Topic: PIOT/ConstrainedDevice/ActuatorCmd. 2023-11-29 11:35:45,886: DataUtil: INFO:Created DataUtil instance.
+2023-11-29 11:35:45,886: DefaultDataMessageListener: INFO: Actuator Command Msg:
+2023-11-29 11:36:45,886: MqttClientConnector: INFO: Disconnecting MQTT client from broker: 127.0.0.1
+.S
+Ran 8 tests in 65.043s
+OK (skipped=7)
+```
+
 - PIOT-CDA-10-004
+
+```
+<terminated> DeviceDataManagerIntegrationTest.py [/home/mohammad/programmingthelot/.venv/bin/python] 2023-11-29 11:50:22,133: DeviceDataManagerIntegrationTest: INFO: Testing DeviceDataManager class...
+2023-11-29 11:50:22,136: ConfigUtil: INFO: Loading config: /home/mohammad/programming theiot/python-components/config/PiotConfig.props 2023-11-29 11:50:22,137: ConfigUtil: DEBUG:Config: ['Mqtt. GatewayService', 'Coap. GatewayService', 'ConstrainedDevice'] 2023-11-29 11:50:22,137: ConfigUtil: INFO: Created instance of ConfigUtil: 2023-11-29 11:50:22,140: MqttClientConnector: INFO: 2023-11-29 11:50:22,140: MqttClientConnector: INFO:
+2023-11-29 11:50:22,140: MqttClientConnector: INFO: 2023-11-29 11:50:22,140: MqttClientConnector: INFO:
+<programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7f66dbbf67d0>
+MQTT Client ID: DeviceDataMQTT MQTT Broker Host: 127.0.0.1 MQTT Broker Port: 1883
+MQTT Keep Alive: 60
+2023-11-29 11:50:22,140: DeviceDataManager: INFO: Starting DeviceDataManager...
+2023-11-29 11:50:22,141: MqttClientConnector: INFO:MQTT client connecting to broker at host: 127.0.0.1 2023-11-29 11:50:22,157:MqttClientConnector: INFO: [Callback] Connected to MQTT broker. Result code: 0
+2023-11-29 11:50:22,161: MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f66dbb06fd0> 2023-11-29 11:50:22,164: DeviceDataManager: INFO:Started DeviceDataManager.
+2023-11-29 11:50:22,165: MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f66dbb06fd0> 2023-11-29 11:50:37,164: DeviceDataManager: INFO: Stopping DeviceDataManager...
+2023-11-29 11:50:37,165: MqttClientConnector: INFO: Disconnecting MQTT client from broker: 127.0.0.1 2023-11-29 11:50:37,168: DeviceDataManager: INFO: Stopped DeviceDataManager.
+Ran 1 test in 15.036s
+OK
+```
 
 - PIOT-INT-10-003
 
+```
+<terminated> DeviceDataManagerIntegrationTest.py [/home/mohammad/programmingthelot/.venv/bin/python] 2023-11-29 12:05:10,255: DeviceDataManagerIntegrationTest: INFO: Testing DeviceDataManager class...
+2023-11-29 12:05:10,255: ConfigUtil: INFO: Loading config: /home/mohammad/programming theiot/python-components/config/PiotConfig.props 2023-11-29 12:05:10,255: ConfigUtil: DEBUG:Config: ['Mqtt. GatewayService', 'Coap. GatewayService', 'ConstrainedDevice']
+2023-11-29 12:05:10,255: ConfigUtil: INFO:Created instance of ConfigUtil: <programming theiot.common.ConfigUtil.ConfigUtil object at 0x7f5db2343b90> 2023-11-29 12:05:10,255:MqttClientConnector: INFO: MQTT Client ID: DeviceDataMQTT
+2023-11-29 12:05:10,256:MqttClientConnector: INFO: 2023-11-29 12:05:10,256:MqttClientConnector: INFO: 2023-11-29 12:05:10,256:MqttClientConnector: INFO:
+MQTT Broker Host: 127.0.0.1
+MQTT Broker Port: 1883 MQTT Keep Alive: 60
+2023-11-29 12:05:10,256: DeviceDataManager: INFO:Starting DeviceDataManager...
+2023-11-29 12:05:10,256:MqttClientConnector: INFO: MQTT client connecting to broker at host: 127.0.0.1 2023-11-29 12:05:10,262: DeviceDataManager: INFO:Started DeviceDataManager.
+2023-11-29 12:05:10,262:MqttClientConnector: INFO: [Callback] Connected to MQTT broker. Result code:
+2023-11-29 12:05:10,264:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f5db29ee9d0> 2023-11-29 12:05:10,264:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7f5db29ee9d0> 2023-11-29 12:06:50,262: DeviceDataManager: INFO: Stopping DeviceDataManager...
+2023-11-29 12:06:50,263: MqttClientConnector: INFO: Disconnecting MQTT client from broker: 127.0.0.1 2023-11-29 12:06:50,263: DeviceDataManager: INFO: Stopped DeviceDataManager.
+Ran 1 test in 100.009s
+OK
+```
+
 - PIOT-INT-10-004
+
+```
+<terminated> DeviceDataManagerIntegrationTest.py [/home/mohammad/programmingthelot/.venv/bin/python] 2023-11-29 12:15:32,497: DeviceDataManagerIntegrationTest: INFO: Testing DeviceDataManager class...
+2023-11-29 12:15:32,497: ConfigUtil: INFO: Loading config: /home/mohammad/programming theiot/python-components/config/PiotConfig.props 2023-11-29 12:15:32,500: ConfigUtil: DEBUG:Config: ['Mqtt. GatewayService', 'Coap.GatewayService', 'ConstrainedDevice']
+2023-11-29 12:15:32,500: ConfigUtil: INFO:Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7fd2fd87f190> 2023-11-29 12:15:32,500:MqttClientConnector: INFO: MQTT Client ID: DeviceDataMQTT
+MQTT Broker Host: 127.0.0.1
+MQTT Broker Port: 1883 MQTT Keep Alive: 60
+2023-11-29 12:15:32,500:MqttClientConnector: INFO: 2023-11-29 12:15:32,500:MqttClientConnector: INFO: 2023-11-29 12:15:32,500:MqttClientConnector: INFO: 2023-11-29 12:15:32,500: DeviceDataManager: INFO:Starting DeviceDataManager...
+2023-11-29 12:15:32,500:MqttClientConnector: INFO: Enabling TLS encryption...
+/home/mohammad/programmingtheiot/.venv/lib/python3.11/site-packages/paho/mqtt/client.py:792: DeprecationWarning: ssl.PROTOCOL_TLSv1_2 is deprecated
+context = ssl.SSLContext(tls_version)
+2023-11-29 12:15:32,509: MqttClientConnector: INFO: MQTT client connecting to broker at host: 127.0.0.1
+2023-11-29 12:15:32,522: DeviceDataManager: INFO: Started DeviceDataManager.
+2023-11-29 12:15:32,529: MqttClientConnector: INFO: [Callback] Connected to MQTT broker. Result code: 0
+2023-11-29 12:15:32,530:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7fd2fceacb90> 2023-11-29 12:15:32,530:MqttClientConnector: INFO: MQTT client subscribed: <paho.mqtt.client.Client object at 0x7fd2fceacb90> 2023-11-29 12:17:12,525: DeviceDataManager: INFO: Stopping DeviceDataManager...
+2023-11-29 12:17:12,525: MqttClientConnector: INFO:Disconnecting MQTT client from broker: 127.0.0.1 2023-11-29 12:17:12,525: DeviceDataManager: INFO:Stopped DeviceDataManager.
+Ran 1 test in 100.028s
+OK
+```
 
 EOF.
