@@ -20,6 +20,8 @@ URL:
 
 ### UML Design Diagram(s)
 
+![image](https://github.com/Mohammad0336/IoT_LM_book-exercise-docs/assets/81828400/8eca9e0f-4a75-427b-aa0f-90752918d32b)
+
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
