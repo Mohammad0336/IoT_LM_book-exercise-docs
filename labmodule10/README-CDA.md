@@ -10,13 +10,23 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The implementation uses Edge Tier applications for CDA and GDA in an IoT environment via CoAP and MQTT. Emphasis is on 
+security with TLS encryption for MQTT communication, securing message exchange. It configures Mosquitto broker for TLS, modifies 
+MqttClientConnector class for encrypted connections, and addresses credential management. Overall, it establishes a secure 
+communication framework in the IoT Edge Tier.
+
 How does your implementation work?
+
+The implementation uses Edge Tier applications for CDA and GDA in an IoT environment via CoAP and MQTT, with a focus on TLS 
+encryption for MQTT connections. This involves configuring Mosquitto broker for TLS, secure loading of credentials, and modifying 
+MqttClientConnector class in both applications. The modifications include SSL socket factory initialization and configuring MQTT 
+client connection for encryption.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/Abbas-Rizvi/iot-python-components
 
 ### UML Design Diagram(s)
 
